@@ -1,0 +1,62 @@
+		<div class="limiter">
+		<div class="container-login100" style="background-image: url('./assets/images/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" #Sign = "ngForm">
+					<span class="login100-form-logo">
+						<i class="zmdi zmdi-landscape"></i>
+					</span>
+
+					<span class="login100-form-title p-b-34 p-t-27">
+						Sign up
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="fname" placeholder="Fisrt name" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="mname" placeholder="Middle name" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="lname" placeholder="Last name" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="date" name="dob" placeholder="D.O.B" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="email" placeholder="Email id" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="number" name="mobile" placeholder="mobile number" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="password" name="pass" placeholder="Password" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="cpass" placeholder="Confirm Password" ngModel/>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" (click)="Sign_up_page(Sign)">
+							Sign up 
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	

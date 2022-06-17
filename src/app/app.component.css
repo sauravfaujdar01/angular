@@ -1,0 +1,8 @@
+.headerclass {
+    background: lavender;
+}
+.login100-form-btn {
+    height: 40px !important;
+    display: initial !important;
+    min-width: 100px !important;
+}
